@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+:root {
+    --fonte01: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+    font-family: var(--fonte01);
+  
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    background-color: white;
+}
+
+nav a {
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(0, 60, 255);
+}
+.espaco {
+    padding: 20px;
+    background-color:rgb(247, 247, 247);
+}
+main {
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(134, 134, 134, 0.164);
+}
+
+img {
+    width: 50%;
+}
+h1 {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.resumo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+#botao {
+    background-color: aqua;
+    padding: 20px;
+    margin: 50px 20px 0px ;
+    
+
+}
+#calc {
+    line-height: 30px;
+    padding: 50px;
+    margin: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+}
+
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 480px) {
+    .resumo {
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+    
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 19px;
+    }
+
+    #calc {
+        line-height: 30px;
+        padding-bottom: 50px;
+        margin: auto;
+        
+    }
+}
+
