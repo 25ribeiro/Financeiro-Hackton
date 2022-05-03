@@ -68,6 +68,11 @@ h1 {
     padding: 20px;
 
 }
+
+p {
+    line-height: 30px;
+    font-size: 1.2em;
+}
 #botao {
     background-color: aqua;
     padding: 20px;
@@ -77,11 +82,19 @@ h1 {
 }
 #calc {
     line-height: 30px;
+    margin: auto;
     padding: 50px;
-    margin: 200px;
+    width: 700px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
 }
 
+li {
+    font-size: 1.2em;
+}
+
+input, button {
+    font-size: 1em;
+}
 
 footer {
     background-color: white;
@@ -92,23 +105,54 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-    .resumo {
+
+    #logo {
+        width: 40%;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    section {
+        height: auto;
         display: flex;
         flex-direction: column;
-        padding: 3px;
-    
+        
+       
+    }
+    .resumo {
+        text-align: justify;
+        line-height: 25px;
+        
     }
 
     h1 {
         font-weight: 600;
-        font-size: 19px;
+        font-size: 22px;
+    }
+
+    p {
+        line-height: 30px;
     }
 
     #calc {
-        line-height: 30px;
-        padding-bottom: 50px;
+        line-height: 25px;
         margin: auto;
+        width: auto;
         
+    }
+    footer {
+        background-color: white;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-weight: 700;
+        font-size: 0.8em;
     }
 }
 
