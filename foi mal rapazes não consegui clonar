@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação Financeira</title>
+    <style>
+        .foto {
+            width: 800px;
+            height: 200px;
+
+        }
+        a:hover{
+            color: rgb(209, 80, 80);
+        }
+        h1{
+            font-family: monospace;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            font-size: 80px;
+            text-align: center;
+            
+        }
+        h2{
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            text-align: center;
+        }
+        q{
+            font: arial;
+            color: black;
+            background-color: blanchedalmond;
+            
+        }
+        main p{
+            font-size: 16px;
+            color: rgb(12, 5, 5);
+            text-align: center;
+        }
+        .foto2{
+            float: left;
+        }
+        .foto3{
+            float: left;
+        }
+        
+        
+        
+</style>
+</head>
+<body>
+    <h1><strong>Educação Financeira!</strong></h1>
+    <h2>O que é, e por que é tão importante saber!<br>E de como é primordial na educação de nossas crianças.<br>
+
+        <img src="imagens/images.png" alt=" " class="foto" >
+        </h2>
+
+    <main>
+        <p><strong>Conceito de Educação Financeira no Brasil:<br>
+        </strong>Segundo a OCDE (2005), educação financeira é <q>o processo mediante o qual os indivíduos e as sociedades melhoram a sua compreensão em relação aos conceitos e produtos financeiros, de maneira que, com informação, formação e orientação, possam desenvolver os valores e as competências necessários para se tornarem mais conscientes das oportunidades e riscos neles envolvidos e, então, poderem fazer escolhas bem informadas, saber onde procurar ajuda e adotar outras ações que melhorem o seu bem-estar. Assim, podem contribuir de modo mais consistente para a formação de indivíduos e sociedades responsáveis, comprometidos com o futuro </q>
+        <a href="https://www.vidaedinheiro.gov.br/educacao-financeira-no-brasil/?doing_wp_cron=1651594842.0941529273986816406250">Veja mais no site do Governo</a>
+        </p>
+        <p><strong>Por que a Educação Financeira é tão importante?</strong><img src="imagens/images (1).png" alt=" " class="foto2"><br>O mais importante é que ela está <mark> diramente ligada a saúde e qualidade de vida nossa e de nossa família</mark> .  Assim, não ter conhecimento sobre esse assunto pode causar problemas tanto na sua <u>saúde financeira como também na saúde física e emocional.</u> 
+            Ter educação financeira é essencial na vida de todas as pessoas, afinal, todos nós lidamos com dinheiro todos os dias.
+            <mark> educação financeira é fundamental para o progresso social e econômico de um país.</mark> Uma população educada financeiramente, não só saberá gerir melhor seus salários e bens como passará a entender melhor sobre economia e mercado. 
+            <u>O objetivo dessas ações não é só organizar o dinheiro, mas também oferecer motivação contínua e fazer com que você não tenha a sensação de que está poupando dinheiro para nada ou que seus sonhos estão distantes.</u> 
+            O pontapé incial para a educação financeira, se baseia na maneira de como organizamos nossas despesas. As despesas abrangem todas as saídas, ou seja todos os gastos.
+            <mark> Ver as notas e os números da sua conta bancária você pode esquecer de que eles são resultados das horas investidas no trabalho — eles são a concretização da sua energia.</mark> Então, diante de cada compra, questione-se sobre o verdadeiro valor dela, sendo assim, o que  é essencial: 
+             Alimentação, aluguel, água, luz, higiene pessoal, medicamentos, entre outras;
+            Prioritárias desde que se jusifiquem necessárias : roupas, transportes( Ex: Taxi, Uber) utensílios/imóveis/eletredomésticos para casa, gastos com lazer, etc.
+            Além de tudo é ter a consciência e a disciplina de evitar gastos com coias supérfluas, que são os excessos e as coisas que você não precisa.
+            Além disso, podem ser categorizadas de acordo com a finalidade, como:
+            pagamento de contas; alimentação; consumo;roupas e higiene; cartão de crédito; lazer.
+            O objetivo dessas ações não é só organizar o dinheiro, mas também oferecer motivação contínua e fazer com que você não tenha a sensação de que está poupando dinheiro para nada ou que seus sonhos estão distantes, seja o sonho da casa própia, o filho planejado, mudar-se de país/cidade, entre infinitos e possíveis sonhos que temos e que devemos mesmo ter, pois sonhar é de graça e além disso nos motiva a viver e ir adiante, e financeiramente falando, com objetivos muito claros nos próximos anos, as chances de alcançá-los antes do prazo será uma motivação importante para investir o dinheiro extra.<br><br>
+            <strong> <u> A educação financeira para crianças e jovens</strong></u> <br><br><img src="imagens/baixados.png" alt=" " class="foto3">
+Pensar que a educação financeira é exclusividade dos adultos, por estarem no mercado de trabalho, possuírem renda e contas de casa para pagar, é um grande erro. Afinal, quando a pessoa aprende a gerir seu dinheiro com responsabilidade desde cedo, as chances de se tornar um adulto consciente que faz boas escolhas são maiores.
+Além de ensiná-los a se organizarem financeiramente, a prática permite o desenvolvimento de comportamentos que podem fazer a diferença no futuro, como autocontrole emocional, disciplina, organização e planejamento, gestão e inteligência financeira.
+Ela está, principalmente, relacionada a compreender as melhores ações que devem ser tomadas para alcançar segurança e qualidade de vida no futuro, seja na vida pessoal, seja com as finanças do negócio.
+De modo geral, a educação financeira para crianças e jovens vai além da vontade de enriquecer, é uma atitude importante que vai contra o endividamento precoce, fator recorrente nos dias de hoje.
+Vale ressaltar que todas essas vantagens podem ser adquiridas por meio de boas práticas que auxiliam crianças e jovens no processo, como: 
+começar a usar um cofrinho;
+registrar os gastos;
+acabar com desperdícios;
+incentivar a percepção de valores;
+mostrar a diferença entre querer e precisar;
+conversar sobre trabalho e remuneração; entre outras ações.
+Portanto, a educação financeira na infância possibilita aos jovens maior autonomia em suas escolhas pessoais, sobretudo ao planejar o seu futuro. Como dito, isso ajuda a tomar decisões bem pensadas na fase adulta e a não cometer erros que coloquem em risco a situação financeira.
+Veja mais sobre Educação Financeira para crianças e jovens em uma live gravada pelo Ministério da Educação no Youtube, basta clicar no <a href="https://www.youtube.com/watch?v=H2VvppxTWuM">Link.</a>
+</p><br>
+        
+
+        <p><strong>É possível viver com 1 salario minimo?<br>
+            No Brasil, dificilmente você sobrevive com um salário mínimo.<br> 
+            Mas este guia vale tanto para quem realmente ganha só um salário mínimo ou aquele que ganha o salário médio do brasileiro, um pouco mais alto que o mínimo.</strong></p>
+        
+        
+        <p><strong>&rarr; <a href="https://xpeedschool.com.br/blog/como-dividir-o-salario-para-economizar/">   A  regra 70/30 </a> consiste, basicamente, em <mark><u>dividir o ganho mensal em duas partes</mark></u><br>
+            Uma com 70%, que será usada para as despesas do mês, incluindo as de lazer.<br>
+            Os outros 30% podem ser colocados em algum tipo de investimento com o objetivo de aumentar seu capital.</strong></p><br><br>
+    
+    </main>
+    <section class="container">
+    
+        <ul>
+                <p>Sabendo da realidade financeira do trabalhador brasileiro, entendemos que 30% do salário pode ser muito, por isso desenvolvemos uma ferramenta fácil e intuitiva que irá te ajudar a poupar. </p>
+                <p>Vamos lá: </p> 
+                <p> Primeiro informe o valor da sua renda mensal:</p>
+                
+                <li>                        
+                    <label for="renda">Informe sua renda mensal (R$)</label>    
+                    <input placeholder="Exemplo: 1500" min="0" type="number" id="renda" name="renda">
+                </li>
+                
+                <p>Informe qual valor da sua renda você pode guardar. Lembre-se: poupar dinheiro é um compromisso financeiro.</p>
+
+                <li>
+                    <label for="guardar">Eu posso guardar mensalmente:</label>
+                    <input type="number" min="0" id="guardar" name="guardar">
+                </li>
+
+                <p>Vamos estipular um período mínimo de investimento:</p>
+                <li>
+                    <label for="periodo">Por quanto tempo deseja poupar, em meses?</label>
+                    <input type="number" min="0" id="periodo" name="periodo"><br><br>
+
+                </li>
+                <button type="submit" id="submit">Calcular valor acumulado</button><br><br>
+
+                <li>
+                    <label for="economia">O valor acumulado ao final do período escolhido será de:</label>
+                    <output type="number" id="economia" name="economia">
+                </li>
+
+           </ul>
+
+    </section>   
+</body>
+</html>
