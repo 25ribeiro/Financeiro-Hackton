@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackathon</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bbf67acada.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="head">
-        <div><img src="assets/logo.png" class="head" id="logo" alt=""></img></div>
+        <div><a href="index.html"><img src="assets/logo.png" class="head" id="logo" alt=""></img></a></div>
         <nav class="head">
-            <a href="#">Home</a>
-            <a href="#">Sobre Nós</a>
-            <a href="#">Contato</a>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="contato.html">Contato</a>
         </nav>
     </header>
     <main>
-        <div class="espaco"></div>
-    <article>
+        
         <section>
             <div class="resumo">
                 <h1 class="resumo" >País em crise! Dicas de como administrar sua renda mensal</h1>
@@ -26,42 +26,75 @@
                     No Brasil? <br>
                     Dificilmente você sobrevive com um salário mínimo,
                     mas este guia vale tanto para quem realmente ganha só um salário mínimo ou aquele que ganha o salário médio do brasileiro, um pouco mais alto que o mínimo.</p>
+                    <p><a href="blog.html" class="botao">Saiba mais</a></p>
             </div>
+            
             <img src="assets/lagom-woman-with-the-laptop-works-hard-and-her-income-grows-faster-than-others.png" class="pic" alt="">
+            
         
     </section>
-    <div class="espaco"></div>
+
+    <div class="blocogrande" id="2">
+        <h1>Conheça o Nosso Site</h1>
+        <div id="links">
+           
+            <div class="bloco">
+            <i class="fa-solid fa-newspaper"></i><br>
+                <h2>Artigos</h2><br>
+                <a href="blog.html">
+                    <p>Aprenda o que é educação financeira e como administrar melhor os seus gastos</p>
+                </a>
+            </div>
+
+           <div class="bloco">
+            <i class="fa-solid fa-lightbulb"></i><br>
+               <h2>Dicas</h2><br>
+               <a href="#">
+                   <p>Dicas rápidas para aplicar no seu dia a dia e economizar</p>
+               </a>
+            </div>
+            
+           <div class="bloco">
+            <i class="fa-solid fa-calculator"></i><br>
+               <h2>Calculadora</h2><br>
+               <a href="#4">
+                   <p>Conheça a nossa calculadora financeira e saiba quando dinheiro você pode juntar </p>
+               </a>
+        
+            </div>
+        </div>
+    </div>
+
     <section>
         <img src="assets/lagoom-man-makes-an-investment-of-money-online.png" class="pic" alt="">
         <div class="resumo">
-            <h1 class="resumo">Como se organizar com o salário para as despesas?</h1>
-            <p class="resumo">A  regra 70/30  consiste, basicamente, em dividir o ganho mensal em duas partes
-                Uma com 70%, que será usada para as despesas do mês, incluindo as de lazer.
-                Os outros 30% podem ser colocados em algum tipo de investimento com o objetivo de aumentar seu capital. </p>
-                <p><a href="" id="botao">Calculadora</a></p>
+            <h1 class="resumo">Quem Somos</h1>
+            <p class="resumo">Somos uma empresa Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, neque est consequuntur quis nam ab natus cumque, dolore officiis maiores corporis impedit minima assumenda laboriosam ex quisquam explicabo asperiores architecto. </p>
+            <p><a href="#2" class="botao">Nossos Serviços</a></p>
+        
         </div>
     </section>
     <div class="espaco"></div>
-
-    <section>
+    
+    <section id="4">
         
         <ul id="calc">
-            <h1>Calculadora</h1><br>
+            <h1>Calculadora Financeira</h1><br>
             <p>Sabendo da realidade financeira do trabalhador brasileiro, entendemos que 30% do salário pode ser muito, por isso desenvolvemos uma ferramenta fácil e intuitiva que irá te ajudar a poupar. </p>
             <p>Vamos lá: </p> 
-            <p> Primeiro informe o valor da sua renda mensal:</p>
+            <p> Primeiro informe o valor da sua renda mensal:</p> <br>
             
             <li>                        
                 <label for="renda">Informe sua renda mensal (R$)</label>    
                 <input placeholder="Exemplo: 1500" min="0" type="number" id="renda" name="renda">
-            </li>
+            </li><br>
             
             <p>Informe qual valor da sua renda você pode guardar. Lembre-se: poupar dinheiro é um compromisso financeiro.</p>
 
             <li>
                 <label for="guardar">Eu posso guardar mensalmente:</label>
                 <input type="number" min="0" id="guardar" name="guardar">
-            </li>
+            </li><br>
 
             <p>Vamos estipular um período mínimo de investimento:</p>
             <li>
@@ -69,7 +102,7 @@
                 <input type="number" min="0" id="periodo" name="periodo"><br><br>
 
             </li>
-            <button type="submit" id="submit">Calcular valor acumulado</button><br><br>
+            <button type="submit" id="submit" class="botao">Calcular valor acumulado</button><br><br>
 
             <li>
                 <label for="economia">O valor acumulado ao final do período escolhido será de:</label>
@@ -80,7 +113,6 @@
         </div>
     </section>
         
-    </article>
 </main>
 </body>
 <div class="espaco"></div>

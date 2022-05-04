@@ -12,7 +12,6 @@
 }
 
 body {
-    background-color: rgb(247, 247, 247);
     font-family: var(--fonte01);
   
 }
@@ -24,11 +23,17 @@ body {
     align-items: center;
     padding: 3px;
     background-color: white;
+    
+}
+header {
+    border-bottom: 10px solid rgb(0, 60, 255);
 }
 
 nav a {
-    padding: 10px;
+    padding: 0px;
+    margin: 25px;
     font-weight: bold;
+    font-size: 1.2em;
     text-decoration: none;
 }
 
@@ -36,22 +41,24 @@ nav a:hover {
     color: rgb(0, 60, 255);
 }
 .espaco {
-    padding: 20px;
-    background-color:rgb(247, 247, 247);
+    padding: 10px;
+    background-color:rgb(0, 60, 255);
 }
 main {
-    min-width: 300px;
-    max-width: 1200px;
     margin: auto;
     background-color: white;
 }
 
 section {
-    height: 90vh;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    height: 78vh;
     display: flex;
     align-items: center;
     padding: 10px;
-    box-shadow: 1px 1px 10px rgba(134, 134, 134, 0.164);
+    /* box-shadow: 1px 1px 10px rgba(134, 134, 134, 0.164); */
+    
 }
 
 img {
@@ -60,12 +67,68 @@ img {
 h1 {
     font-weight: 600;
     font-size: 3em;
+    margin-bottom: 0px;
 }
 
 .resumo {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+div.blocogrande {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 30px 30px 90px 30px;
+    margin: auto;
+    height: auto;
+    width: auto;
+
+}
+
+div.blocogrande  h1 {
+    padding-bottom: 30px;
+}
+#links {
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+        
+}
+
+div.bloco i {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+div.bloco {
+    color: white;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+       
+}
+
+div.bloco a {
+    text-decoration: none;
+    color: white;
+}
+
+div.bloco a:hover {
+    text-decoration: underline;
 
 }
 
@@ -73,12 +136,23 @@ p {
     line-height: 30px;
     font-size: 1.2em;
 }
-#botao {
-    background-color: aqua;
-    padding: 20px;
-    margin: 50px 20px 0px ;
-    
 
+.botao {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+    background-color: rgb(0, 60, 255);
+    padding: 16px 30px;
+    margin: 0px 10px ;
+    border-radius: 15px;
+    border: none; 
+
+}
+
+.botao:hover {
+    background-color: rgb(71, 114, 255);
+    transition: 200ms;
 }
 #calc {
     line-height: 30px;
@@ -86,6 +160,7 @@ p {
     padding: 50px;
     width: 700px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
 }
 
 li {
@@ -96,6 +171,34 @@ input, button {
     font-size: 1em;
 }
 
+article {
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    max-width: 1200px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.contato a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(0, 60, 255)
+    
+}
+
+.contato a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 footer {
     background-color: white;
     text-align: center;
@@ -104,10 +207,38 @@ footer {
     font-weight: 700;
 }
 
+@media only screen and (max-width: 1000px) {
+
+    div.bloco {
+        color: white;
+        height: 18vh;
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10px;
+        padding: 20px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        text-decoration: none;
+           
+    }
+
+    #links {
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            
+    }
+
+}
+
 @media only screen and (max-width: 480px) {
 
     #logo {
-        width: 40%;
+        width: 90%;
     }
 
     .head {
@@ -126,8 +257,9 @@ footer {
        
     }
     .resumo {
-        text-align: justify;
+        text-align: left;
         line-height: 25px;
+        align-items: center;
         
     }
 
@@ -138,6 +270,44 @@ footer {
 
     p {
         line-height: 30px;
+    }
+
+    .botao {
+        font-size: 1em;
+    }
+
+    div.blocogrande {
+        background-color: blue;
+        color: white;
+        margin: auto;
+        height: auto;
+        width: auto;
+        padding: 20px;
+    
+    }
+
+    div.bloco {
+        color: white;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
+        padding: 20px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        text-decoration: none;
+           
+    }
+
+    #links {
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            
     }
 
     #calc {
