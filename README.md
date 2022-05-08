@@ -9,7 +9,7 @@ Acesse o link:  https://25ribeiro.github.io/Financeiro-Hackton/
 ## 🚀 Technologies
 
 - [HTML]
-- [CSS][ts]
+- [CSS]
 - [VS Code][vscode] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 - [JavaScript]
 
