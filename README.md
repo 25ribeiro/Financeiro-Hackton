@@ -4,7 +4,7 @@
 <img src="assets/print.png" alt=" ">
 
 Esse site lhe mostrará de como a educação financeira é importante para você e para a sociedade, e vai te dar dicas de como cuidar de sua saúde financeira.
-Acesse o link:  https://25ribeiro.github.io/Financeiro-Hackton/
+Acesse o link: https://educacaofinanceira-hackton.netlify.app
 
 ## 🚀 Technologies
 
